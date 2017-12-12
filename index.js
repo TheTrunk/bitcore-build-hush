@@ -128,7 +128,7 @@ function startGulp(name, opts) {
 
         var browserifyCommand;
 
-        if (name !== 'lib') {
+        if (name !== 'lib-hush') {
             browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external bitcore-lib-hush -o ' + fullname + '.js';
         } else {
             browserifyCommand = browserifyPath + ' --require ./index.js:bitcore-lib-hush -o bitcore-lib-hush.js';
