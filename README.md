@@ -7,7 +7,9 @@ A helper to add tasks to gulp.
 Install with:
 
 ```sh
-npm install bitcore-build-hush
+git clone https://github.com/TheTrunk/bitcore-build-hush.git
+cd bitcore-build-hush
+npm install
 ```
 
 and use and require in your gulp file: 
@@ -38,4 +40,5 @@ See [CONTRIBUTING.md](https://github.com/bitpay/bitcore) on the main bitcore rep
 Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
 
 Copyright 2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
+Copyright 2015 TheTrunk
 
